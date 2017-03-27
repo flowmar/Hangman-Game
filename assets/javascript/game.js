@@ -5,12 +5,13 @@ var wordBank = ['Mahogany', 'Chestnut', 'Mango-Tango', 'Atomic-Tangerine', 'Anti
 var currentWord = wordBank[Math.floor(Math.random() * wordBank.length)];
 var blanks = "";
 var remainingGuesses = 10;
+var guessedLetters = [];
 
 var winDisplay = document.getElementById('wins');
 var lossDisplay = document.getElementById('losses');
 var wordDisplay = document.getElementById('current-word');
 var remainingGuessesDisplay = document.getElementById('remaining-guesses');
-
+var guessedLettersDisplay = document.getElementById('guessed-letters');
 // Display Wins
 winDisplay.innerHTML = "Wins:<br> " + numberOfWins;
 
