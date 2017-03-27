@@ -1,14 +1,19 @@
-html {
-  background-color: black;
-} 
+.container-fluid {
+	  	background: url('../images/colorful.jpg');
+}
+
+body {
+	height: 100%;
+	width: 100%;
+}
 
 header {
-  text-align: center;
   background-color: black;
+  text-align: center;
 }
 
 h1 {
-  background-color: skyblue;
+  background-color: rgba(102, 153, 204, .4);
 }
 
 p {
@@ -25,25 +30,28 @@ footer {
 
 
 .game {
-	background-color: red;
+	background-color: rgba(0, 0, 0, .4);
 	border-color: whitesmoke;
 	border-style: dotted;
 	border-width: 3px;
+	color: whitesmoke;
 }
 
 .picture {
-	background-color: orange;
+	background-color: rgba(28, 55, 91, .7);
 	border-color: whitesmoke;
 	border-style: dotted;
 	border-width: 3px;
 	text-align: center;
 }
 
-.spacer {
-  background-color: black;
-}
 
 #losses, #wins {
+	font-weight: bold;
+	text-align: center;
+}
+
+#current-word {
 	font-weight: bold;
 	text-align: center;
 }
