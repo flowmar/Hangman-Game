@@ -1,0 +1,957 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"templ",
+				"template:html5\thtml5"
+			],
+			[
+				"h",
+				"html\thtml"
+			],
+			[
+				"numberOF",
+				"numberOfRoastBeef"
+			],
+			[
+				"numberOf",
+				"numberOfSandwiches"
+			],
+			[
+				"numbero",
+				"numberOfGrilledCheese"
+			],
+			[
+				"numberO",
+				"numberOfGrilledCheese"
+			],
+			[
+				"newDiv",
+				"newDiv〔variable〕"
+			],
+			[
+				"drinkList",
+				"drinkList〔variable〕"
+			],
+			[
+				"ht",
+				"html5\tSimple HTML5 Boilerplate"
+			],
+			[
+				"pull-left",
+				"pull-left"
+			],
+			[
+				"div",
+				"div\tTag"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"col-md",
+				"col-md \tBootstrap 4 Class"
+			],
+			[
+				"alig",
+				"align-self-md-start \tBootstrap 4 Class"
+			],
+			[
+				"ul",
+				"ul\tHTML - Unordered list"
+			],
+			[
+				"tem",
+				"template:local_css\tlocal_css"
+			],
+			[
+				"templat",
+				"template:navbar\tnavbar"
+			],
+			[
+				"temp",
+				"template:cdn\tcdn"
+			],
+			[
+				"htm",
+				"html5\tSimple HTML5 Boilerplate"
+			],
+			[
+				"html",
+				"html5\tSimple HTML5 Boilerplate"
+			],
+			[
+				"right",
+				"right"
+			],
+			[
+				"border-s",
+				"border-style"
+			],
+			[
+				"bott",
+				"text-bottom"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"border-bot",
+				"border-bottom-width"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"block",
+				"block"
+			],
+			[
+				"cccccc",
+				"cccccc"
+			],
+			[
+				"center",
+				"center"
+			],
+			[
+				"ju",
+				"justify〔value〕"
+			],
+			[
+				"flowmar",
+				"flowmar"
+			],
+			[
+				"fade",
+				"fadeIn\t.fadeIn()"
+			],
+			[
+				"divRes",
+				"divReset〔variable〕"
+			],
+			[
+				"button",
+				"button\t(index.html)"
+			],
+			[
+				"javas",
+				"javascript.js"
+			],
+			[
+				"java",
+				"javascript"
+			],
+			[
+				"bol",
+				"bold_folder_labels\t(Preferences.sublime-settings)"
+			],
+			[
+				"hi",
+				"highlight_modified_tabs\t(Preferences.sublime-settings)"
+			],
+			[
+				"sav",
+				"save_on_focus_lost\t(Preferences.sublime-settings)"
+			],
+			[
+				"line_",
+				"line_padding_bottom\t(Preferences.sublime-settings)"
+			],
+			[
+				"lin",
+				"line_padding_top\t(Preferences.sublime-settings)"
+			],
+			[
+				"high",
+				"highlight_line\t(Preferences.sublime-settings)"
+			],
+			[
+				"fon",
+				"font_options"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/Flowmar/Desktop/code/week-3/Homework/Hangman-Game/index.html",
+			"settings":
+			{
+				"buffer_size": 951,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "game.js",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Flowmar/Desktop/code/week-3/Homework/Hangman-Game/assets/css/style.css",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"disabl",
+				"Package Control: Disable Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"package li",
+				"Package Control: List Packages"
+			],
+			[
+				"list pac",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"depen",
+				"Package Control: Satisfy Dependencies"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"enabl",
+				"Package Control: Enable Package"
+			],
+			[
+				"lorem",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"color",
+				"Color Picker"
+			],
+			[
+				"sublimelinter the",
+				"SublimeLinter: Choose Gutter Theme"
+			],
+			[
+				"git",
+				"Git: Push"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"packag",
+				"Package Control: List Packages"
+			],
+			[
+				"sublimelinter",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"colorsublime",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Add Channel"
+			],
+			[
+				"dociment",
+				"DocBlockr: Decorate line comment"
+			],
+			[
+				"package l",
+				"Package Control: List Packages"
+			],
+			[
+				"prefer",
+				"Preferences: Settings"
+			],
+			[
+				"pre",
+				"Preferences: Settings"
+			],
+			[
+				"pref",
+				"Preferences: Settings"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: l",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 714.0,
+		"history":
+		[
+			"gasjdfo",
+			"stringa",
+			"git pull",
+			"git pukl",
+			"string = 1",
+			"<string>",
+			"quit()",
+			"quit",
+			"exit",
+			"pyhton",
+			"awea",
+			"we",
+			"upaweira",
+			"taleap",
+			"buta",
+			"end",
+			"start",
+			"git",
+			"git push();",
+			"git push()",
+			"git push",
+			"print(variable * number)",
+			"number = 4",
+			"variable = 3",
+			"python",
+			"html",
+			"git push",
+			"git",
+			"git push",
+			"RELOAD",
+			"UPDATE();",
+			"UPDATE",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Flowmar/Desktop/code/week-3/Homework/Hangman-Game",
+		"/Users/Flowmar/Desktop/code/week-3/Homework/Hangman-Game/assets",
+		"/Users/Flowmar/Desktop/code/week-3/Homework/Hangman-Game/assets/css",
+		"/Users/Flowmar/Desktop/code/week-3/Homework/Hangman-Game/assets/images",
+		"/Users/Flowmar/Desktop/code/week-3/Homework/Hangman-Game/assets/javascript"
+	],
+	"file_history":
+	[
+		"/Users/Flowmar/Desktop/code/week-4/trigger-random-unsolved_html.html",
+		"/Users/Flowmar/Desktop/practice.html",
+		"/Users/Flowmar/Desktop/code/week-2/Homework/Responsive-Portfolio/index.html",
+		"/Users/Flowmar/Desktop/code/week-2/Homework/Responsive-Portfolio/assets/css/style.css",
+		"/Users/Flowmar/Repositories/KineticVortexFlow/home/index.html",
+		"/Users/Flowmar/Desktop/code/week-2/Homework/Bootstrap-Portfolio/bootstrap-portfolio.sublime-project",
+		"/Users/Flowmar/Desktop/code/week-2/Homework/Bootstrap-Portfolio/README.md",
+		"/Users/Flowmar/Desktop/code/week-2/Homework/Responsive-Portfolio/assets/css/reset.css",
+		"/Users/Flowmar/Repositories/KineticVortexFlow/assets/css/landing.css",
+		"/Users/Flowmar/Repositories/KineticVortexFlow/landing.html",
+		"/Users/Flowmar/Repositories/KineticVortexFlow/assets/css/style.css",
+		"/Users/Flowmar/Repositories/KineticVortexFlow/practice.html",
+		"/Users/Flowmar/Repositories/KineticVortexFlow/about.html",
+		"/Users/Flowmar/Repositories/KineticVortexFlow/assets/css/blog.css",
+		"/Users/Flowmar/Repositories/KineticVortexFlow/lex.html",
+		"/Users/Flowmar/Repositories/KineticVortexFlow/firebird.html",
+		"/Users/Flowmar/Repositories/KineticVortexFlow/blog.html",
+		"/Users/Flowmar/Repositories/KineticVortexFlow/javascript.js",
+		"/Users/Flowmar/Repositories/KineticVortexFlow/learn.html",
+		"/Users/Flowmar/Repositories/KineticVortexFlow/assets/javascript/javascript.js",
+		"/Users/Flowmar/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/Flowmar/Repositories/KineticVortexFlow/style.css",
+		"/Users/Flowmar/Repositories/KineticVortexFlow/index.html",
+		"/Users/Flowmar/Repositories/KineticVortexFlow/.gitignore",
+		"/Users/Flowmar/Repositories/KineticVortexFlow/hoops.html",
+		"/Users/Flowmar/Repositories/KineticVortexFlow/gallery.html",
+		"/Users/Flowmar/Desktop/code/Week 1/Homework/Basic-Portfolio/assets/css/style.css",
+		"/Users/Flowmar/Desktop/code/Week 1/Homework/Basic-Portfolio/portfolio.html",
+		"/Users/Flowmar/Desktop/code/Week 1/Homework/Basic-Portfolio/contact.html",
+		"/Users/Flowmar/Desktop/code/Week 1/Homework/Basic-Portfolio/index.html",
+		"/Users/Flowmar/Desktop/code/Week 1/Homework/Basic-Portfolio/basic-portfolio.sublime-project",
+		"/Users/Flowmar/Desktop/code/Week 2/week-2-style.css",
+		"/Users/Flowmar/Desktop/code/Week 2/week2-thursday.html",
+		"/Users/Flowmar/Downloads/Example.html",
+		"/Users/Flowmar/Desktop/code/02-2017-Houston-Class-Content/Class-Content/01-html-css-three-days/1-Class-Content/1.3/Activities/3-FloatLayout-Activity/Unsolved/floats.css",
+		"/Users/Flowmar/Desktop/code/02-2017-Houston-Class-Content/Class-Content/01-html-css-three-days/1-Class-Content/1.3/Activities/3-FloatLayout-Activity/Unsolved/floats.html",
+		"/Users/Flowmar/Desktop/code/Week 1/Homework/HW-Wireframe/style.css",
+		"/Users/Flowmar/Desktop/my-first-html.html",
+		"/Users/Flowmar/Desktop/code/Homework/HW-Wireframe/index.html",
+		"/Users/Flowmar/Desktop/code/Homework/HW-Wireframe/README.md",
+		"/Users/Flowmar/Desktop/code/Homework/Basic-Portfolio/portfolio.html",
+		"/Users/Flowmar/Desktop/code/Homework/Basic-Portfolio/assets/css/style.css",
+		"/Users/Flowmar/Desktop/code/Homework/Basic-Portfolio/contact.html",
+		"/Users/Flowmar/Desktop/code/Homework/Basic-Portfolio/index.html",
+		"/Users/Flowmar/Desktop/code/Homework/Basic-Portfolio/assets/css/reset.css",
+		"/Users/Flowmar/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Flowmar/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/Flowmar/Desktop/code/firstrepository/DemoFile.html",
+		"/Users/Flowmar/Desktop/code/firstrepository/style.css",
+		"/Users/Flowmar/Desktop/PREWORK_OTI/Module-10/index.html",
+		"/Users/Flowmar/Desktop/PREWORK_OTI/Module-10/style.css",
+		"/Users/Flowmar/Desktop/PREWORK_OTI/Module-10/javascript.js",
+		"/Users/Flowmar/Downloads/alfred-localhost-workflow-master/localhost.alfredworkflow",
+		"/Volumes/ImamFamily/FLOWMAR/Projectss/Coding Bootcamp Files/Omar Boo the Dog/Fixing Code/BooTheDog.html",
+		"/Users/Flowmar/hello.html"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"<div class=\"connect\">\n\t\t\t<h2 style=\"text-align: center\">\n\t\t\tConnect With Me\n\t\t\t</h2>\n\t\t\t<br>\n\t\t\t<a href=\"https://github.com/flowmar\"><i class=\"fa fa-github-square fa-4x\" alt=\"GitHub Icon\"></i></a>\n\t\t\t<a href=\"http://stackoverflow.com/users/7305084/omar-flowmar-imam\"><i class=\"fa fa-stack-overflow fa-4x\" alt=\"Stack Overflow Icon\"></i></a>\n\t\t\t<a href=\"https://linkedin.com/in/flowmar\"><i class=\"fa fa-linkedin-square fa-4x\"></i></a>\n\t\t\t<!-- <div class=\"LI-profile-badge\"  data-version=\"v1\" data-size=\"medium\" data-locale=\"en_US\" data-type=\"vertical\" data-theme=\"dark\" data-vanity=\"flowmar-hoops\"><a class=\"LI-simple-link\" href='https://www.linkedin.com/in/flowmar-hoops?trk=profile-badge'>Omar Imam</a></div> -->\n\t\t</div>\n\t\t<div class=\"line\">\n\t\t\t_\n\t\t</div>\n\t</div>\n\t</div>\n\t<footer>\n\t\t<p>\n\t\t\t©Copyright 2017 Omar Imam\n\t\t</p>\n\t</footer>\n\t</div>\n</body>",
+			"heigh",
+			"\t\n",
+			"\t}"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/Flowmar/Desktop/code/week-3/Homework/Hangman-Game/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 951,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								266,
+								266
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"colorcode": true,
+							"git_gutter_enabled": true,
+							"syntax": "Packages/HTML Extended/HTML-extended.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "game.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"colorcode": true,
+							"git_gutter_enabled": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/Flowmar/Desktop/code/week-3/Homework/Hangman-Game/assets/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"colorcode": true,
+							"git_gutter_enabled": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"file": "/Users/Flowmar/Desktop/code/week-3/Homework/Hangman-Game/assets/images/170316_164747.jpg",
+					"semi_transient": false,
+					"stack_index": 1,
+					"type": "image"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 25.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.GitSavvy":
+	{
+		"height": 130.0
+	},
+	"output.exec":
+	{
+		"height": 130.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 130.0
+	},
+	"output.sublimious_shortcut_panel":
+	{
+		"height": 0.0
+	},
+	"output.sublimious_status_panel":
+	{
+		"height": 130.0
+	},
+	"pinned_build_system": "",
+	"project": "Hangman-Game.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 175.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

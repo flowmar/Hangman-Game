@@ -1,20 +1,87 @@
 <!DOCTYPE html>
 <html lang="en-us">
 	<head>
+		<!-- UTF-8 Encoding-->
 		<meta charset="utf-8">
+		<!-- IE compatatbility-->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- Viewport tag-->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Title Page</title>
+		<title>Hang With Colors</title>
 		<!--Reset the CSS using normalize.css-->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">i
+    <!--Link Stylesheet -->
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	</head>
-	<body>
-		<h1 class="text-xs-center">Hello World</h1>
-		
 
+	<body>
+    <!-- Bootstrap Grid-->
+    <div class="container-fluid">
+      <!--First Row-->
+      <div class="row">
+        <!---Full Width Column-->
+        <div class="col-md-12">
+          <header>
+            <!--Placeholder Banner Image-->
+            <img class="img-responsive" src="http://lorempixel.com/1024/70/technics" alt="banner">        
+          </header>
+        </div>
+      </div>
+      <!--Second Row-->
+      <div class="row">
+        <!--Empty Spacer Column-->
+        <div class="col-md-3 spacer">
+        </div>
+        <!--Centered Text Column-->
+        <div class="col-md-6">
+          <!--Page Title-->
+          <h1 class="text-center">
+            Hang with Colors
+          </h1>
+        </div>
+        <br>
+        <br>
+        <!--Empty Spacer Column-->
+        <div class="col-md-3 spacer">
+        </div>
+      </div>
+      <!--Main Game Row-->
+        <div class="row">
+          <!--Spacer-->
+          <div class="col-md-3 spacer">
+          </div>
+          <!--Main Game Column-->
+            <div class="col-md-3 picture">
+              <img class="img-responsive" src=http://lorempixel.com/200/200 alt="Placeholder image">
+            </div>
+            <div class="col-md-3 game">
+              <div class="press-any">
+                <p>
+                  Let's play Hangman! Press any Key to begin!
+                </p>
+              </div>
+              <div id="wins">
+              </div>
+              <div id="losses">
+              </div>
+              <div id="current-word">
+              </div>
+            </div>
+
+          <!--Spacer-->
+          <div class="col-md-3 spacer">
+          </div>
+        </div>
+        <div class="row">
+          <footer class="col-md-12 text-center" style="height:100%">
+            ©Copyright Omar Imam 2017
+          </footer>
+        </div>
+    </div>
+		
+    <!-- Link to Javascript-->
 		<script src="assets/javascript/game.js" async></script>
 		<!-- jQuery -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js" async></script>
