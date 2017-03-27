@@ -12,6 +12,8 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+    <!--Link Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
     <!--Link Stylesheet -->
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	</head>
@@ -22,44 +24,32 @@
       <!--First Row-->
       <div class="row">
         <!---Full Width Column-->
-        <div class="col-md-12">
+        <div class="col-12">
           <header>
             <!--Placeholder Banner Image-->
-            <img class="img-responsive" src="http://lorempixel.com/980/70/technics" alt="banner">        
+             <img class="text-center" id="banner" src="assets/images/hang-with-colors-banner3-web.jpg" alt="Hang With Colors Banner">       
           </header>
         </div>
       </div>
-      <!--Second Row-->
+      <hr>
       <div class="row">
-        <!--Empty Spacer Column-->
-        <div class="col-md-3 spacer">
-        </div>
-        <!--Centered Text Column-->
-        <div class="col-md-6">
-          <!--Page Title-->
-          <h1 class="text-center">
-            Hang with Colors
-          </h1>
-        </div>
-        <br>
-        <br>
-        <!--Empty Spacer Column-->
-        <div class="col-md-3 spacer">
-        </div>
+        <hr>
       </div>
       <!--Main Game Row-->
         <div class="row">
           <!--Spacer-->
-          <div class="col-md-3 spacer">
+          <div class="col-md-2 spacer">
           </div>
           <!--Main Game Column-->
-            <div class="col-md-3 picture">
+            <div class="col-md-4 picture">
               <img class="img-responsive" src=http://lorempixel.com/200/200 alt="Placeholder image">
             </div>
-            <div class="col-md-3 game">
+            <div class="col-md-4 game">
               <div class="press-any">
                 <p>
-                  Let's play Hangman! Press any Key to begin!
+                  Let's play Hangman!
+                  <br>
+                  Press any Key to begin!
                 </p>
               </div>
               <div id="wins">
@@ -68,21 +58,23 @@
               </div>
               <div id="current-word">
               </div>
+              <div id="remaining-guesses">
+              </div>
             </div>
 
           <!--Spacer-->
-          <div class="col-md-3 spacer">
+          <div class="col-md-2 spacer">
           </div>
         </div>
         <div class="row">
-          <footer class="col-md-12 text-center" style="height:100%">
+          <footer class="col-md-12 text-center">
             ©Copyright Omar Imam 2017
           </footer>
         </div>
     </div>
 		
     <!-- Link to Javascript-->
-		<script src="assets/javascript/game.js" async></script>
+		<script src="assets/javascript/game.js"></script>
 		<!-- jQuery -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js" async></script>
 		<!-- Bootstrap JavaScript -->

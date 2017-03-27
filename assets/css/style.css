@@ -1,3 +1,6 @@
+html {
+	font-family: 'Abel', sans-serif;
+}
 .container-fluid {
 	  	background: url('../images/colorful.jpg');
 }
@@ -8,8 +11,8 @@ body {
 }
 
 header {
-  background-color: black;
   text-align: center;
+  width: 100%;
 }
 
 h1 {
@@ -17,13 +20,19 @@ h1 {
 }
 
 p {
+	color: black;
+	font-family: 'Abel', sans-serif;
+	font-size: 18px;
 	font-weight: bolder;
 	text-align: center;
+	text-shadow: 2px 1px 20px #00ff00;
 }
 
 footer {
   background-color: black;
   color: whitesmoke;
+  margin-top: 2%;
+  padding: 5%;
   text-align: center;
   width: 100%;
 }
@@ -47,12 +56,31 @@ footer {
 
 
 #losses, #wins {
+	color: black;
+	font-family: 'Abel', sans-serifs
+	font-size: 18px;
 	font-weight: bold;
 	text-align: center;
+	text-shadow: 2px 2px 3px #FFFFFF;
 }
 
 #current-word {
 	font-weight: bold;
 	text-align: center;
+	text-shadow: 2px 1px  #000000;
 }
 
+
+#banner {
+	border-radius: 15%;
+	height: 250px;
+	margin: 5% 0 1% 0;
+	max-width: 100%;
+	width: 100%;
+}
+
+#remaining-guesses {
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 1px 1px 1px #000000;
+}
