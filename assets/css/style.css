@@ -68,6 +68,10 @@ footer {
 	color: green;
 }
 
+#losses {
+	color: red;
+}
+
 #current-word {
 	font-size: 1.5rem;
 	font-weight: bold;
@@ -91,7 +95,7 @@ footer {
 }
 
 #guessed-letters {
-	color: red;
+	color: orange;
 	font-weight: bold;
 }
 
