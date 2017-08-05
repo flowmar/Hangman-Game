@@ -1,8 +1,9 @@
 html {
 	font-family: 'Abel', sans-serif;
 }
+
 .container-fluid {
-	  	background: url('../images/colorful.jpg');
+	background: url('../img/colorful.jpg');
 }
 
 body {
@@ -11,12 +12,12 @@ body {
 }
 
 header {
-  text-align: center;
-  width: 100%;
+	text-align: center;
+	width: 100%;
 }
 
 h1 {
-  background-color: rgba(102, 153, 204, .4);
+	background-color: rgba(102, 153, 204, .4);
 }
 
 p {
@@ -25,21 +26,20 @@ p {
 	font-size: 18px;
 	font-weight: bolder;
 	text-align: center;
-	text-shadow: 2px 1px 20px #00ff00;
+	text-shadow: 2px 1px 20px black;
 }
 
 footer {
-  background-color: black;
-  color: whitesmoke;
-  margin-top: 2%;
-  padding: 5%;
-  text-align: center;
-  width: 100%;
+	background-color: black;
+	color: whitesmoke;
+	margin-top: 2%;
+	padding: 5%;
+	text-align: center;
+	width: 100%;
 }
 
-
 .game {
-	background-color: rgba(0, 0, 0, .4);
+	background-color: rgba(0, 0, 0, .7);
 	border-color: whitesmoke;
 	border-style: dotted;
 	border-width: 3px;
@@ -54,22 +54,26 @@ footer {
 	text-align: center;
 }
 
-
-#losses, #wins {
-	color: black;
+#losses,
+#wins {
+	color: lightgrey;
 	font-family: 'Abel', sans-serif;
 	font-size: 18px;
 	font-weight: bold;
 	text-align: center;
-	text-shadow: 2px 2px 3px #FFFFFF;
+	text-shadow: 2px 2px 3px #000;
+}
+
+#wins {
+	color: green;
 }
 
 #current-word {
+	font-size: 1.5rem;
 	font-weight: bold;
 	text-align: center;
-	text-shadow: 2px 1px  #000000;
+	text-shadow: 2px 1px #000000;
 }
-
 
 #banner {
 	border-radius: 15%;
@@ -82,5 +86,15 @@ footer {
 #remaining-guesses {
 	font-weight: bold;
 	text-align: center;
-	text-shadow: 1px 1px 1px #000000;
+	text-shadow: .04rem .04rem .02rem #000;
+	color: cyan;
+}
+
+#guessed-letters {
+	color: red;
+	font-weight: bold;
+}
+
+p {
+	color: white;
 }

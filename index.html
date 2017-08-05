@@ -1,91 +1,96 @@
 <!DOCTYPE html>
 <html lang="en-us">
-	<head>
-		<!-- UTF-8 Encoding-->
-		<meta charset="utf-8">
-		<!-- IE compatatbility-->
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<!-- Viewport tag-->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Hang With Colors</title>
-		<!--Reset the CSS using normalize.css-->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
-		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
-    <!--Link Google Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
-    <!--Link Stylesheet -->
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	</head>
 
-	<body>
-    <!-- Bootstrap Grid-->
+  <head>
+
+    <!-- Meta Tags-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hang With Colors</title>
+
+    <!-- Bootstrap 4 CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- MD Bootstrap -->
+    <link rel="stylesheet" href="assets/css/mdb.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  </head>
+
+  <body>
     <div class="container-fluid">
-      <!--First Row-->
       <div class="row">
-        <!---Full Width Column-->
         <div class="col-12">
           <header>
             <!--Placeholder Banner Image-->
-             <img class="text-center" id="banner" src="assets/images/hang-with-colors-banner_vectorized.svg" alt="Hang With Colors Banner">       
+            <img class="text-center" id="banner" src="assets/img/hang-with-colors-banner_vectorized.svg" alt="Hang With Colors Banner">
           </header>
         </div>
       </div>
+
       <hr>
       <div class="row">
         <hr>
       </div>
+
       <!--Main Game Row-->
-        <div class="row game-row">
-          <!--Spacer-->
-          <div class="col-md-2 spacer">
-          </div>
-          <!--Main Game Column-->
-            <div class="col-md-4 picture">
-              <img class="img-responsive" src=http://lorempixel.com/200/200 alt="Placeholder image">
-            </div>
-            <div class="col-md-4 game">
-              <div class="press-any">
-                <p>
-                  Let's play Hangman!
-                  <br>
-                  Press any Key to begin!
-                </p>
-              </div>
-              <div id="wins">
-              </div>
-              <div id="losses">
-              </div>
-              <div id="current-word">
-              </div>
-              <div id="remaining-guesses">
-              </div>
-              <div id="guessed-letters">
-              </div>
-              <div id="test">
-                
-              </div>
-            </div>
+      <div class="row game-row">
 
-          <!--Spacer-->
-          <div class="col-md-2 spacer">
+        <div class="col-1"></div>
+
+        <div class="col picture">
+          <img class="img-responsive" src="http://lorempixel.com/200/200" alt="Placeholder image">
+        </div>
+        <div class="col game">
+          <div class="press-any">
+            <p>
+              Let's play Hangman!
+              <br> Press the Return key to begin!
+            </p>
+          </div>
+          <div id="wins">
+          </div>
+          <div id="losses">
+          </div>
+          <div id="current-word">
+          </div>
+          <div id="remaining-guesses">
+          </div>
+          <div id="guessed-letters">
+          </div>
+          <div id="test">
           </div>
         </div>
-        <div class="row">
-          <footer class="col-md-12 text-center">
-            ©Copyright Omar Imam 2017
-          </footer>
-        </div>
+        <div class="col-1"></div>
+
+      </div>
+      <div class="row">
+        <footer class="col text-center">
+          ©Copyright Omar Imam 2017
+        </footer>
+      </div>
     </div>
-		
-    <!-- Link to Javascript-->
-		<script src="assets/javascript/game.js"></script>
-		<!-- jQuery -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js" async></script>
-    <!--Tether for Bootstrap-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
-		<!-- Bootstrap JavaScript -->
-		<script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js" async></script>
 
-	</body>
+    <!-- jQuery -->
+    <script src="assets/js/jquery-3.1.1.min.js"></script>
+
+    <!-- Popper -->
+    <script src="assets/js/popper.min.js"></script>
+
+    <!-- Bootstrap Javascript -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- MDB Javascript -->
+    <script src="assets/js/mdb.min.js"></script>
+
+    <!-- Link to Javascript-->
+    <script src="assets/js/hangman.js"></script>
+
+  </body>
+
 </html>

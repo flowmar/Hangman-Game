@@ -3,7 +3,7 @@ var numberOfWins = 0;
 var numberOfLosses = 0;
 var wordBank = ["Mahogany", "Chestnut", "Mango-Tango", "Atomic-Tangerine", "Antique-Brass", "Tumbleweed", "Macaroni-and-Cheese", "Banana-Mania", "Screamin-Green", "Caribbean-Green", "Outer-Space", "Cerulean", "Pink-Flamingo", "Razzle-Dazzle-Rose", "Razzmatazz", "Wild-Watermelon"];
 var currentWord = wordBank[Math.floor(Math.random() * wordBank.length)];
-var blanks = "";
+var blanks = [];
 var remainingGuesses = 11;
 var wrongLetters = [];
 var userGuess = "";
@@ -40,13 +40,14 @@ function startGame(){
     document.removeEventListener("keypress", startGame, false);
     wrongLetters = [];
     blanks = [];
-    remainingGuessesDisplay.innerHTML = "<br>Guesses Remaining: <br>";
+    remainingGuessesDisplay.innerHTML = "<br>Guesses Remaining: <br>" + remainingGuesses;
+
     for (var i = 0; i < currentWord.length; i++) {
         if (currentWord[i] == "-") {
     // If a hyphen is encountered, print 2 spaces
             blanks = blanks + "&nbsp\n &nbsp";
         }
-        else { 
+        else {
 	// Otherwise, print a "_" character
             blanks = blanks + "_ ";
         }
@@ -61,7 +62,7 @@ for (var i = 0; i < blanks.length; i++) {
 // Display Current Word replaced with blank spaces for each letter
 
 ///Test//////////////////////////////////////////////////////////////////
-    
+
 test.innerHTML = currentWord;
 function playGame() {
     window.addEventListener("keypress", checkLetterPressed, false);
@@ -106,7 +107,7 @@ console.log(currentWord);
 function update() {
     guessedLettersDisplay.innerHTML = "Guessed Letters: <br>" + wrongLetters;
 
-    
+
 // If all letters are revealed:
     if (currentWord.toString() === wordDisplay.toString()) {
         numberOfWins += 1;
