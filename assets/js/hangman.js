@@ -41,11 +41,14 @@ var hangman = {
 		// Create an array of characters from the currentWord
         currentArray = [...currentWord];
         hangman.changeColor();
-	},
-	changeColor: function() {
+    },
+    // Changes the color of the block on the left
+    changeColor: function () {
+        // Define the blockColor as the background color of #color-block
 		var blockColor = $('#color-block').css('background-color', 'black');
-
-		var hexColor;
+        var hexColor;
+        // Set hexColor equal to the hex color value of the current puzzle
+        // Set the color of #color-block to the hex value
 		switch (currentWord) {
 			case 'mahogany':
 				hexColor = '#CA3435';
@@ -104,7 +107,6 @@ var hangman = {
 				blockColor = $('#color-block').css('background-color', hexColor);
 				break;
 		}
-		// blockColor = $('#color-block').css('background-color', hexColor);
 	},
 	// Refreshes the player stats on the page
 	refreshStats: function() {

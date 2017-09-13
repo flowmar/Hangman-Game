@@ -23,14 +23,14 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid pt-3">
         <div class="row">
-            <header class="col-12">
+            <header class="col-12 animated flipInY">
                 <!-- Banner Image-->
-                <img class="text-center" id="banner" src="assets/img/hang-with-colors-banner_vectorized.svg" alt="Hang With Colors Banner" />
+                <img class="text-center animated flipInX" id="banner" src="assets/img/hang-with-colors-banner_vectorized.svg" alt="Hang With Colors Banner" />
             </header>
         </div>
-        <hr>
+        <br>
         <div class="row">
             <hr>
             <br><br><br><br>
@@ -38,39 +38,38 @@
         </div>
 
         <!--Main Game Row-->
-        <div class="mb-0 row game-row">
+        <div class="mb-0 row game-row animated flipInX">
 
             <div class="col-1"></div>
 
-            <div class="col" id="color-block">
+            <div class="col animated flipIn" id="color-block">
                 <!-- Block that Matches the current color-->
             </div>
-            <div class="col game">
-                <div class="press-any">
+            <div class="col-2"></div>
+            <div class="col game animated flipIn">
+                <div class="press-any animated">
                     <p>
                         Let's play Hangman!
                         <br> Press the Return key to begin!
                     </p>
                 </div>
-                <div id="wins">
+                <div id="wins" class="animated fadeInRight">
                 </div>
-                <div id="losses">
+                <div id="losses" class="animated bounceInRight">
                 </div>
-                <div id="current-word">
+                <div id="current-word" class="animated zoomInLeft">
                 </div>
-                <div id="remaining-guesses">
+                <div id="remaining-guesses" class="animated rotateInUpRight">
                 </div>
-                <div id="guessed-letters">
-                </div>
-                <div id="test">
+                <div id="guessed-letters" class="animated flipInY">
                 </div>
             </div>
             <div class="col-1"></div>
 
         </div>
-        <div class="row mt-0">
-            <footer class="col text-center">
-                ©2017 Omar Imam
+        <div class="row mt-0 animated tada">
+            <footer class="col animated flipIn text-center">
+                <span class="animated rotateInDownLeft">©2017 Omar Imam</span>
             </footer>
         </div>
     </div>
