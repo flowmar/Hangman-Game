@@ -3,10 +3,11 @@ html {
 }
 
 .container-fluid {
-    background: url('../img/colorful.jpg');
+    background-color: rgba(15, 12, 12, .6);
 }
 
 body {
+    background: url('../img/colorful.jpg');
     height: 100%;
     width: 100%;
 }
@@ -36,13 +37,14 @@ footer {
     text-align: center;
     height: 30vh;
     width: 100%;
+    opacity: .94;
 }
 
 .game {
     background-color: rgba(0, 0, 0, .7);
     border-color: whitesmoke;
-    border-style: dotted;
-    border-width: 3px;
+    border-style: outset;
+    border-width: 1px;
     color: whitesmoke;
 }
 
@@ -72,11 +74,11 @@ footer {
 }
 
 #banner {
-    border-radius: 7%;
+    border-radius: 3%;
     -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: flex-start;
-    border: groove #000000 3px;
+    border: outset whitesmoke 2px;
     height: 16rem;
 }
 
@@ -97,7 +99,9 @@ p {
 }
 
 #color-block {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .87);
+    opacity: .95;
+    border: outset #ffffff 1px;
 }
 
 .game-row {
