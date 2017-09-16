@@ -1,21 +1,19 @@
-# Hangman-Game
+# **Hangman Game**
 
+## *Concepts: Dynamic HTML via Javascript*
 
-[Hangman Game Live Link]('https://flowmar.github.io/Hangman-Game/')
+---
 
-## Assignment
+In this assignment, we were tasked to create a 'Hangman' game.
 
-The assignment for this project was:
+---
 
-    # Week 3 Assignment
-
-    ### Overview
-    In this assignment, you'll create one of two possible computer games: Hangman or Psychic. These apps will run in the browser, and feature dynamically updated HTML powered by your JavaScript code.
+## Assignment:
 
 
     ## Option Two: Hangman Game (Challenge - Recommended)
 
-    ![Hangman](Images/2-Hangman.jpg)
+![Hangman](Images/2-Hangman.jpg)
 
 
     1. [Watch the demo](hangman-game-demo.mov).
@@ -48,20 +46,32 @@ The assignment for this project was:
     * Save your whole game and its properties in an object.
     * Save any of your game's functions as methods, and call them underneath your object declaration using event listeners.
     * Don't forget to place your global variables and functions above your object.
-    * Remember: global variables, then objects, then calls.
+     * Remember: global variables, then objects, then calls.
     * Definitely talk with a TA or your instructor if you get tripped up during this challenge.
 
+---
 
-    ## Copyright
+### Copyright
 
-    Coding Boot Camp &copy; 2016. All Rights Reserved.
+Coding Boot Camp &copy; 2016. All Rights Reserved.
 
-From the Houston Coding Bootcamp
 
-## Technologies and Libraries Used:
 
-- HTML/CSS
-- Javascript
-- jQuery
-- Bootstrap 4 Beta
-- MD Bootstrap
+---
+
+## Deployment
+
+The project was deployed to GitHub pages as:
+[Bootstrap-Portfolio.](https://flowmar.github.io/Bootstrap-Portfolio)
+
+The source code is located [here](https://github.com/flowmar/Bootstrap-Portfolio).
+
+---
+
+## About the Author
+
+### Omar Imam
+
+Find me on: [GitHub](https://github.com/flowmar/)
+Portfolio: [Flowmar](https://flowmar.gwiddle.co.uk/)
+Connect with me on [LinkedIn](https://linkedin.com/in/flowmar)
